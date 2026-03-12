@@ -13,14 +13,11 @@ namespace TypesCasting1
         {
             Console.WriteLine("Hello from a fruit!");
         }
-    }
-
-
-    internal class Task00
-    {
-       public static void Run()
+        public static void MakeFruit()
         {
-            Fruit myFruit1 = new Fruit();
+            Fruit myFruit1 = new Fruit(); // original instance
+            Fruit myFruit2 = new Fruit(); //create a new instance
+            Fruit fruit1Copy = myFruit1; // points to the original instance in memory
         }
     }
 }

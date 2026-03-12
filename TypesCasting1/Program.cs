@@ -21,6 +21,10 @@ namespace TypesCasting1
 
             Fruit.SayHello();
 
+         
+
+            Consle.WriteLine(myFruit1.GetType());
+
 
 
         
@@ -39,5 +43,7 @@ namespace TypesCasting1
             Console.WriteLine(doubleResult);
 
         }
+        
+
     }
 }
