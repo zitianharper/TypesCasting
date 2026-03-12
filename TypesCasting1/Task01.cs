@@ -35,7 +35,35 @@ namespace TypesCasting1
         {
             Console.WriteLine(num1 * num2); 
         }
+
+        //task 5 
+        public static void Tests(string test1)
+        {
+            
+            int newTest1 = int.Parse(test1);
+
+            Console.WriteLine(newTest1);
+        }
+
+        public static void Test32(string test2)
+        {
+
+            int newTest2 = Convert.ToInt32(test2);
+
+            Console.WriteLine(test2);
+        }
+
+        public static void Parse(string test3)
+        {
+
+            int newTest3 = Int32.Parse(test3);
+
+            Console.WriteLine(test3);
+        }
+
+
     }
 
-        
+
+
 }
