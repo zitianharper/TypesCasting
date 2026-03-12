@@ -22,11 +22,12 @@ namespace TypesCasting1
 
 
             Fruit.MakeFruit();
-          
+
+            divideByDouble();
 
 
 
-        
+
         }
 
         public static void divideByDouble()
@@ -40,11 +41,16 @@ namespace TypesCasting1
             double doubleResult = (double)(intInput / decInput);
 
             Console.WriteLine("You would like a character (true/false):");
-            if (respone == true)
+            string response = Console.ReadLine();
+            if (response == "true")
             {
 
-                char charResult = (char)doubleResult;
-                Console.Writeline("Here si is:" + charResult);
+                char[] charResult = doubleResult.ToString().ToCharArray();
+                
+                foreach (char number in charResult)
+                {
+                    Console.WriteLine($"\n {number}");
+                }
             }
             else {
                 Console.WriteLine(doubleResult);
