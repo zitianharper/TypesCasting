@@ -6,7 +6,6 @@ namespace TypesCasting1
     {
         static void Main(string[] args)
         {
-            Task00.Run();
             Task01.Run();
             Task01.Tests("11111");
             Task01.Test32("9738");
@@ -21,9 +20,9 @@ namespace TypesCasting1
 
             Fruit.SayHello();
 
-         
 
-            Consle.WriteLine(myFruit1.GetType());
+            Fruit.MakeFruit();
+          
 
 
 
