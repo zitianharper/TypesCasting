@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Task00.Run();
+            Task01.Run();
         }
     }
 }
