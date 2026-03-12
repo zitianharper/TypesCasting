@@ -19,11 +19,27 @@ namespace TypesCasting1
 
             Task01.MultiplyInt(newNum1, newNum2);
 
-            int number = 500;
+            int number = 500;   
 
-            Console.WriteLine("hello, input a number");
+
+
+            
+            Console.WriteLine("Please input a full number:");
+            int intInput = Console.Readline();
+            Console.WriteLine("Please input a decimal number");
+            decimal decInput = Console.ReadLine();
+
+            decimal decimalIntInput = (decimal)intInput;
+
+            decimal product = decimalIntInput / decInput;
+
+            double productToDouble = (double)product;
+
+            Console.WriteLine(productToDouble);
+
+           Console.WriteLine("hello, input a number");
             string input = Console.ReadLine();
-            if(!int.TryParse(input, out number))
+            if (!int.TryParse(input, out number))
             {
                 Console.WriteLine($"{input} is not a number");
             }
