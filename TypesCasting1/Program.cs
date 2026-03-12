@@ -39,8 +39,16 @@ namespace TypesCasting1
 
             double doubleResult = (double)(intInput / decInput);
 
-            Console.WriteLine(doubleResult);
+            Console.WriteLine("You would like a character (true/false):");
+            if (respone == true)
+            {
 
+                char charResult = (char)doubleResult;
+                Console.Writeline("Here si is:" + charResult);
+            }
+            else {
+                Console.WriteLine(doubleResult);
+            }
         }
         
 
