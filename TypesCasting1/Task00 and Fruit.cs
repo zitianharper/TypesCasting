@@ -4,12 +4,12 @@ using System.Text;
 
 namespace TypesCasting1
 {
-    class Fruit
+     class Fruit
     {
         public string Name { get; set; }   // property
         public string Colour { get; set; } // property
 
-        public void SayHello()
+        static public void SayHello()
         {
             Console.WriteLine("Hello from a fruit!");
         }
