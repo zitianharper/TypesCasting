@@ -19,10 +19,11 @@ namespace TypesCasting1
 
             Task01.MultiplyInt(newNum1, newNum2);
 
-            int number = 500;
+            Fruit.SayHello();
 
 
-        divideByDouble();
+
+        
         }
 
         public static void divideByDouble()

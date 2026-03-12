@@ -4,11 +4,23 @@ using System.Text;
 
 namespace TypesCasting1
 {
+    class Fruit
+    {
+        public string Name { get; set; }   // property
+        public string Colour { get; set; } // property
+
+        public void SayHello()
+        {
+            Console.WriteLine("Hello from a fruit!");
+        }
+    }
+
+
     internal class Task00
     {
        public static void Run()
         {
-            Console.WriteLine("This works!");
+            Fruit myFruit1 = new Fruit();
         }
     }
 }
