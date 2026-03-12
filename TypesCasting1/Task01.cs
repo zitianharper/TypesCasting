@@ -26,8 +26,15 @@ namespace TypesCasting1
             float differentNumber = (float)longNumber;
 
             Console.WriteLine(differentNumber);
-        }
 
+    
+        }
+        //task 4
+
+        public static void MultiplyInt(int num1, int num2)
+        {
+            Console.WriteLine(num1 * num2); 
+        }
     }
 
         
